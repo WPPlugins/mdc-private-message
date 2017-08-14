@@ -1,0 +1,37 @@
+.hidden{
+	display: none;
+}
+.mdc_msg_form_div label {
+  display: inline-block;
+  font-weight: bold;
+  vertical-align: top;
+  width: 100px;
+}
+.mdc_msg_form_div .msg_success {
+  background: #6f6 none repeat scroll 0 0;
+  border: 1px solid #090;
+  color: #000;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.mdc_msg_form_div .msg_error {
+  background: #f66 none repeat scroll 0 0;
+  border: 1px solid #900;
+  color: #000;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.msg_action {
+  box-shadow: none !important;
+  cursor: pointer;
+  margin-right: 5px;
+}
+table.dataTable tbody tr.msg_unseen {
+  background: #faa none repeat scroll 0 0;
+}
+textarea.mdcmsgbody {
+  width: 480px;
+}
+#mdc_msg_subj {
+  width: 50%;
+}
